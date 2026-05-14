@@ -1,0 +1,68 @@
+/* Общие настройки для всего сайта */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f4f7f6; /* Светло-серый фон */
+    color: #333;
+}
+
+/* Меню навигации */
+nav {
+    background-color: #2c3e50; /* Темно-синий цвет */
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #3498db; /* Голубой при наведении */
+}
+
+/* Белый блок по центру */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1, h2 { color: #2c3e50; }
+
+/* Стили для кнопок и полей */
+input, select {
+    padding: 12px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover { background-color: #2980b9; }
+
+#result {
+    font-size: 40px;
+    color: #27ae60;
+    margin: 20px 0;
+}

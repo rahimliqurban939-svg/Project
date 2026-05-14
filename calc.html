@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор обмена</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="calc.html">Калькулятор</a>
+        <a href="rates.html">Курсы</a>
+        <a href="about.html">О проекте</a>
+        <a href="contact.html">Контакты</a>
+    </nav>
+
+    <div class="container">
+        <h2>Конвертер валют</h2>
+        
+        <div class="input-group">
+            <input type="number" id="amount" value="1" min="0">
+            <select id="fromCurrency">
+                <option value="USD">USD - Доллар</option>
+                <option value="EUR">EUR - Евро</option>
+                <option value="RUB">RUB - Рубль</option>
+                <option value="AZN">AZN - Манат</option>
+                <option value="GBP">GBP - Фунт</option>
+                <option value="JPY">JPY - Иена</option>
+                <option value="CNY">CNY - Юань</option>
+            </select>
+        </div>
+
+        <div class="equals">равно</div>
+
+        <div class="result-group">
+            <h1 id="result">0.00</h1>
+            <select id="toCurrency">
+                <option value="AZN" selected>AZN - Манат</option>
+                <option value="USD">USD - Доллар</option>
+                <option value="EUR">EUR - Евро</option>
+                <option value="RUB">RUB - Рубль</option>
+                <option value="GBP">GBP - Фунт</option>
+                <option value="JPY">JPY - Иена</option>
+                <option value="CNY">CNY - Юань</option>
+            </select>
+        </div>
+        
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
